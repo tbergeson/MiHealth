@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box; 
+}
+body{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.main{
+    width: 100%;
+}
+
+/* /////// */
+
+.navbar{
+    min-width: 1100px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav-menu{
+    min-width: 400px;
+    width: 40%;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ///// */
+
+.hero {
+    min-width: 1100px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    font-weight:normal;
+}
+
+/* ////// */
+
+.hero-text{
+    min-width: 300px;
+    width: 40%;
+    height: 100%;
+    padding: 30px 0px 50px 50px;
+}
+.hero-text h1{
+    font-size: 64px;
+    line-height: .8em;
+}
+#hero-clickable{
+    font-weight: bold;
+    font-size:larger;
+    text-transform: uppercase;
+    line-height: 3em;
+}
+#hero-clickable:hover{
+    cursor: pointer;
+}
+
+/* ////// */
+
+.hero-imgs{
+    min-width: 800px;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-imgs > div{
+
+    width: 33%;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.breakfast{
+    background-image: url(./images/breakfast.jpeg);
+}
+.lunch{
+    background-image: url(./images/lunch.jpeg);
+}
+.dinner{
+    background-image: url(./images/dinner.jpeg);
+}
+
+/* ////// */
+
+.hero-img-text{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-align: right;
+    line-height: 1.9em;
+    text-transform: uppercase;
+}
+.hero-img-text .green{
+    background-color: rgb(12, 201, 43);
+    padding: 5px 10px;
+    display: inline-block;
+    min-width: 120px;
+}
+.hero-img-text .white{
+    background-color: white;
+    padding: 5px 10px;
+    display: inline-block;
+
+}
